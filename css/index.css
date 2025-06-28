@@ -1,6 +1,10 @@
 @import "reset.css";
 @import "font.css";
 
+a {
+  text-decoration: none;
+}
+
 img {
   width: 100%;
 }
@@ -21,10 +25,6 @@ img {
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 24px;
-}
-
-.wrapper .breadcrumb a {
-  text-decoration: none;
 }
 
 .wrapper .breadcrumb .prev-link {
@@ -74,7 +74,6 @@ img {
   color: #212529;
   font-weight: 500;
   line-height: 1.5;
-  text-decoration: none;
   transition: all 0.3s ease;
 }
 
@@ -99,7 +98,6 @@ img {
 
 .products main ul a {
   color: #212529;
-  text-decoration: none;
 }
 
 .products main ul img {
@@ -119,6 +117,7 @@ img {
   color: #212529;
   line-height: 1.5;
   display: flex;
+  justify-content: center;
   gap: 12px;
   max-width: 336px;
   margin: 0 auto;
@@ -151,6 +150,7 @@ img {
 
 .footer .cta {
   background-color: #e8fec5;
+  text-align: center;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -176,6 +176,76 @@ img {
   padding: 12px 24px;
 }
 
+.footer .content {
+  background-color: #f8f9fa;
+  padding: 64px 20px;
+}
+
+.footer .content .wrapper {
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.footer .content .wrapper nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 0 24px;
+}
+
+.footer .content .wrapper nav h4 {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  padding: 8px 12px;
+  position: relative;
+}
+
+.footer .content .wrapper nav h4 .brand-text {
+  position: relative;
+  z-index: 1;
+}
+
+.footer .content .wrapper nav h4 .deco-dot {
+  position: absolute;
+  top: 11px;
+  right: 11px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #c0fa73;
+  z-index: 0;
+}
+
+.footer .content .wrapper nav ul {
+  color: #212529;
+  display: flex;
+  gap: 40px;
+}
+
+.footer .content .wrapper nav ul li {
+  padding: 12px 0;
+}
+
+.footer .content .wrapper nav ul li a {
+  color: #212529;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.footer .content .wrapper .copyright {
+  border-top: 1px solid #dee2e6;
+  color: #6c757d;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-align: center;
+  padding: 32px 0 0;
+}
+
+.footer .content .wrapper .copyright p {
+  margin: 0 0 4px;
+}
+
 @media (max-width: 1280px) {
   .products {
     flex-direction: column;
@@ -189,6 +259,11 @@ img {
   .products main ul {
     grid-template-columns: repeat(2, 1fr);
     gap: 24px;
+  }
+
+  .products main .pagination button {
+    width: 25px;
+    height: 25px;
   }
 }
 
