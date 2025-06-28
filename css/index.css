@@ -34,3 +34,11 @@
   font-weight: 500;
   line-height: 1.5;
 }
+
+.wrapper h1 {
+  color: #212529;
+  font-size: 1.75rem;
+  font-weight: 700;
+  padding: 7px 0;
+  margin: 0 0 24px;
+}
