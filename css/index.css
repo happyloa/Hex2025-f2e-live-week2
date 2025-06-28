@@ -9,3 +9,28 @@
   max-width: 1296px;
   margin: 0 auto;
 }
+
+.wrapper .breadcrumb {
+  color: #dee2e6;
+  display: flex;
+  gap: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 24px;
+}
+
+.wrapper .breadcrumb a {
+  text-decoration: none;
+}
+
+.wrapper .breadcrumb .prev-link {
+  color: #6c757d;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.wrapper .breadcrumb .active {
+  color: #212529;
+  font-weight: 500;
+  line-height: 1.5;
+}
