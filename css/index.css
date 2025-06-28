@@ -1,6 +1,10 @@
 @import "reset.css";
 @import "font.css";
 
+img {
+  width: 100%;
+}
+
 .container {
   padding: 32px 20px 80px;
 }
@@ -41,4 +45,72 @@
   font-weight: 700;
   padding: 7px 0;
   margin: 0 0 24px;
+}
+
+.products {
+  display: flex;
+  gap: 24px;
+}
+
+.products aside {
+  flex: 1;
+  align-self: start;
+  position: sticky;
+  top: 100px;
+  max-width: 196px;
+}
+
+.products aside ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.products aside ul li {
+  padding: 12px 0;
+}
+
+.products aside ul li a {
+  color: #212529;
+  font-weight: 500;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+.products aside ul li a.active {
+  color: #57a203;
+}
+
+.products aside ul li a:hover {
+  color: #57a203;
+}
+
+.products main {
+  max-width: 1076px;
+}
+
+.products main ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 48px 24px;
+  margin: 0 0 48px;
+}
+
+.products main ul a {
+  color: #212529;
+  text-decoration: none;
+}
+
+.products main ul img {
+  margin: 0 0 12px;
+}
+
+.products main a article h3 {
+  font-weight: 700;
+  margin: 0 0 4px;
+}
+
+.products main a article p {
+  font-weight: 500;
 }
