@@ -1,9 +1,11 @@
+@import "reset.css";
 @import url("https://fonts.googleapis.com/css2?family=Mina:wght@700&family=Noto+Sans+TC:wght@100..900&display=swap");
 
 *,
 *::before,
 *::after,
 body {
+  color: #212529;
   font-family: "Noto Sans TC", sans-serif;
   line-height: 1.2;
   letter-spacing: 0.05em;
@@ -12,4 +14,9 @@ body {
 .mina-bold {
   font-family: "Mina", sans-serif;
   font-weight: 700;
+}
+
+*::selection {
+  background-color: #57a203;
+  color: #ffffff;
 }

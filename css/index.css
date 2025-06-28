@@ -1,5 +1,4 @@
-@import "reset.css";
-@import "font.css";
+@import "global.css";
 
 a {
   text-decoration: none;
@@ -34,13 +33,11 @@ img {
 }
 
 .wrapper .breadcrumb .active {
-  color: #212529;
   font-weight: 500;
   line-height: 1.5;
 }
 
 .wrapper h1 {
-  color: #212529;
   font-size: 1.75rem;
   font-weight: 700;
   padding: 7px 0;
@@ -71,7 +68,6 @@ img {
 }
 
 .products aside ul li a {
-  color: #212529;
   font-weight: 500;
   line-height: 1.5;
   transition: all 0.3s ease;
@@ -96,10 +92,6 @@ img {
   margin: 0 0 48px;
 }
 
-.products main ul a {
-  color: #212529;
-}
-
 .products main ul img {
   margin: 0 0 12px;
 }
@@ -114,7 +106,6 @@ img {
 }
 
 .products main .pagination {
-  color: #212529;
   line-height: 1.5;
   display: flex;
   justify-content: center;
@@ -160,7 +151,6 @@ img {
 }
 
 .footer .cta h4 {
-  color: #212529;
   font-size: 1.5rem;
   font-weight: 700;
 }
@@ -218,7 +208,6 @@ img {
 }
 
 .footer .content .wrapper nav ul {
-  color: #212529;
   display: flex;
   gap: 40px;
 }
@@ -228,7 +217,6 @@ img {
 }
 
 .footer .content .wrapper nav ul li a {
-  color: #212529;
   font-weight: 500;
   line-height: 1.5;
 }
