@@ -9,7 +9,7 @@ img {
 }
 
 .hero {
-  background: url("/images/about/hero.webp") center/cover no-repeat;
+  background: url("../images/about/hero.webp") center/cover no-repeat;
   font-weight: 700;
   text-align: center;
   padding: 151px 20px;
