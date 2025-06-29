@@ -1,13 +1,5 @@
 @import "global.css";
 
-a {
-  text-decoration: none;
-}
-
-img {
-  width: 100%;
-}
-
 .hero {
   background: url("../images/about/hero.webp") center/cover no-repeat;
   font-weight: 700;
