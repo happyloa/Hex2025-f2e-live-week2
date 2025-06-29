@@ -207,3 +207,29 @@
   list-style: none;
   margin: 0 0 4px;
 }
+
+@media (max-width: 1280px) {
+  .wrapper aside {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .container .wrapper {
+    flex-direction: column;
+  }
+
+  .wrapper aside {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .wrapper .attribute .size {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .wrapper .actions {
+    flex-direction: column;
+  }
+}
