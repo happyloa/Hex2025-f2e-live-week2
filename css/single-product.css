@@ -171,6 +171,7 @@
   font-weight: 500;
   line-height: 1.5;
   padding: 12px;
+  transition: all 0.3s ease;
 }
 
 .wrapper .actions button i::before {
@@ -183,8 +184,18 @@
   border: 1px solid #212529;
 }
 
+.wrapper .actions .favorite:hover {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.wrapper .actions .favorite:hover i::before {
+  color: #ffffff;
+}
+
 .wrapper .actions .try-on {
   background-color: #212529;
+  border: 1px solid #212529;
   color: #ffffff;
 }
 
