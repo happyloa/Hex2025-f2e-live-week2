@@ -18,12 +18,15 @@ img {
 }
 
 .wrapper .breadcrumb {
-  color: #dee2e6;
   display: flex;
   gap: 12px;
   font-weight: 700;
   line-height: 1.5;
   margin: 0 0 24px;
+}
+
+.wrapper .breadcrumb span {
+  color: #dee2e6;
 }
 
 .wrapper .breadcrumb .prev-link {
