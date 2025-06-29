@@ -18,6 +18,12 @@
   max-width: 746px;
 }
 
+.wrapper main {
+  align-self: start;
+  position: sticky;
+  top: 100px;
+}
+
 .wrapper .breadcrumb {
   display: flex;
   gap: 12px;
@@ -183,4 +189,21 @@
 
 .wrapper .actions .try-on i::before {
   color: #ffffff;
+}
+
+.wrapper .accordions details {
+  border-bottom: 1px solid #dee2e6;
+  line-height: 1.5;
+  padding: 12px 0;
+}
+
+.wrapper .accordions details ul li,
+.wrapper .accordions details p {
+  color: #6c757d;
+}
+
+.wrapper .accordions details summary {
+  font-weight: 500;
+  list-style: none;
+  margin: 0 0 4px;
 }
