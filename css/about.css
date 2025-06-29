@@ -130,11 +130,8 @@
   padding: 0 0 0 12px;
 }
 
-.content .container .stories ul li {
+.content .container .stories ul li i::before {
   color: #57a203;
-}
-
-.content .container .stories ul li i {
   margin: 0 8px 0 0;
 }
 
