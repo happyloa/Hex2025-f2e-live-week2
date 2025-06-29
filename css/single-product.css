@@ -149,8 +149,38 @@
 .wrapper .actions {
   display: flex;
   gap: 8px;
+  margin: 0 0 32px;
 }
 
 .wrapper .actions button {
-    
+  border-radius: 4px;
+  cursor: pointer;
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 12px;
+}
+
+.wrapper .actions button i::before {
+  width: 20px;
+  height: 20px;
+}
+
+.wrapper .actions .favorite {
+  background-color: #ffffff;
+  border: 1px solid #212529;
+}
+
+.wrapper .actions .try-on {
+  background-color: #212529;
+  color: #ffffff;
+}
+
+.wrapper .actions .try-on i::before {
+  color: #ffffff;
 }
