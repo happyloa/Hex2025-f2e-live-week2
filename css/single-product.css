@@ -1,9 +1,156 @@
 @import "global.css";
 
-a {
-  text-decoration: none;
+.container {
+  padding: 64px 20px;
 }
 
-img {
-  width: 100%;
+.container .wrapper {
+  display: flex;
+  gap: 24px;
+  max-width: 1296px;
+  margin: 0 auto;
+}
+
+.wrapper aside {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 8px;
+  max-width: 746px;
+}
+
+.wrapper .breadcrumb {
+  display: flex;
+  gap: 12px;
+  font-weight: 700;
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.wrapper .breadcrumb span {
+  color: #dee2e6;
+}
+
+.wrapper .breadcrumb .prev-link {
+  color: #6c757d;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.wrapper .breadcrumb .active {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+.wrapper h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0 0 16px;
+}
+
+.wrapper .price {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0 0 16px;
+}
+
+.wrapper .price h2 {
+  color: #57a203;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.wrapper .price span {
+  color: #adb5bd;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  text-decoration: line-through;
+}
+
+.wrapper .description {
+  margin: 0 0 32px;
+}
+
+.wrapper .description p {
+  line-height: 1.5;
+  margin: 0 0 12px;
+}
+
+.wrapper .description p:last-child {
+  margin: 0;
+}
+
+.wrapper .attribute {
+  margin: 0 0 48px;
+}
+
+.wrapper .attribute h3 {
+  line-height: 1.5;
+  margin: 0 0 8px;
+}
+
+.wrapper .attribute .colors {
+  display: flex;
+  gap: 8px;
+  margin: 0 0 32px;
+}
+
+.wrapper .attribute .colors .card img {
+  width: 64px;
+  height: 64px;
+  margin: 0 0 4px;
+}
+
+.wrapper .attribute .colors .card p {
+  color: #6c757d;
+  font-weight: 500;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.wrapper .attribute .size {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 8px;
+  margin: 0 0 8px;
+}
+
+.wrapper .attribute .size button {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  padding: 12px 24px;
+  transition: all 0.3s ease;
+}
+
+.wrapper .attribute .size button.active {
+  border: 1px solid #212529;
+}
+
+.wrapper .attribute .size button.disabled {
+  opacity: 0.4;
+  pointer-events: none;
+}
+
+.wrapper .attribute .size button:hover {
+  border: 1px solid #212529;
+}
+
+.wrapper .attribute .alert {
+  color: #d74f4f;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.wrapper .actions {
+  display: flex;
+  gap: 8px;
+}
+
+.wrapper .actions button {
+    
 }
