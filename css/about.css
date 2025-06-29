@@ -8,15 +8,10 @@ img {
   width: 100%;
 }
 
-body {
-  line-height: 1.5;
-}
-
 .hero {
   background: url("/images/about/hero.webp") center/cover no-repeat;
   font-weight: 700;
   text-align: center;
-  line-height: 1.2;
   padding: 151px 20px;
 }
 
@@ -47,11 +42,11 @@ body {
   color: #57a203;
   font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.2;
   margin: 0 0 12px;
 }
 
 .content .slogan p {
+  line-height: 1.5;
   margin: 0 0 4px;
 }
 
@@ -78,7 +73,6 @@ body {
 .content .brand-intro .intro-content h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 1.2;
   margin: 0 0 24px;
 }
 
@@ -86,11 +80,11 @@ body {
   color: #57a203;
   font-size: 1.25rem;
   font-weight: 700;
-  line-height: 1.2;
   margin: 0 0 16px;
 }
 
 .content .brand-intro .intro-content p {
+  line-height: 1.5;
   margin: 0 0 16px;
 }
 
@@ -114,6 +108,7 @@ body {
 }
 
 .content .container section ul li {
+  line-height: 1.5;
   margin: 0 0 12px;
 }
 
@@ -124,7 +119,6 @@ body {
 .content .container h2 {
   font-size: 1.5rem;
   font-weight: 700;
-  line-height: 1.2;
   margin: 0 0 24px;
 }
 
